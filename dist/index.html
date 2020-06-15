@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Redirect to john.muchovej.com</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <div id="particles-background" class="vertical-centered-box"></div>
+  <div id="particles-foreground" class="vertical-centered-box"></div>
+
+  <div class="content">
+    <div id="loader">
+      <div class="loader-circle"></div>
+      <div class="loader-line-mask">
+        <div class="loader-line"></div>
+      </div>
+      <img id="avatar" src="https://john.muchovej.com/authors/ionlights/avatar.jpg" />
+    </div>
+    <p id="redirect">Redirecting you to <a href="https://john.muchovej.com/">john.muchovej.com</a> in a moment</p>
+  </div>
+
+  <script>
+    var timer = setTimeout(function() {
+       window.location = "https://john.muchovej.com/";
+    }, 3000);
+  </script>
+  <!-- partial -->
+  <script  src="./script.js"></script>
+</body>
+</html>
